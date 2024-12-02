@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Document Verification</title>
+</head>
+<body>
+    <header>
+        <h1>Document Verification System</h1>
+    </header>
+    <main>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="file">Upload Your Document:</label>
+            <input type="file" id="file" name="file" required>
+            <button type="submit">Verify</button>
+        </form>
+    </main>
+</body>
+</html>
